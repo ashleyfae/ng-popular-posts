@@ -96,6 +96,12 @@ class NG_Popular_Posts_Widget extends WP_Widget {
 			// Display the featured image (medium size);
 			?>
 			<div class="ng-popular-post-entry">
+				<?php
+				// Uncomment the below line to show the post title. You could also wrap this
+				// in a link tag to make it clickable.
+				//
+				// echo get_the_title( $popular_post );
+				?>
 				<a href="<?php echo esc_url( get_permalink( $popular_post ) ); ?>">
 					<?php echo get_the_post_thumbnail( $popular_post->ID, apply_filters( 'ng_featured_image_size', 'medium' ) ); ?>
 				</a>
