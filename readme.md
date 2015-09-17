@@ -10,5 +10,5 @@ You can choose to filter the posts by time frame: all time (no filter), last 30 
 
 The plugin has a few filters you can use to modify the code:
 
-ng_popular_posts_query_args - Passes in the query arguments in case you want to make adjustments.
-ng_featured_image_size - Change the size of the featured image (defaults to "full")
+1. ng_popular_posts_query_args - Passes in the query arguments in case you want to make adjustments.
+2. ng_featured_image_size - Change the size of the featured image (defaults to "full")
