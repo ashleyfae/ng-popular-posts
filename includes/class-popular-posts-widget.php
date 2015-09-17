@@ -103,7 +103,7 @@ class NG_Popular_Posts_Widget extends WP_Widget {
 				// echo get_the_title( $popular_post );
 				?>
 				<a href="<?php echo esc_url( get_permalink( $popular_post ) ); ?>">
-					<?php echo get_the_post_thumbnail( $popular_post->ID, apply_filters( 'ng_featured_image_size', 'medium' ) ); ?>
+					<?php echo get_the_post_thumbnail( $popular_post->ID, apply_filters( 'ng_popular_posts_featured_image_size', 'medium' ) ); ?>
 				</a>
 			</div>
 			<?php
