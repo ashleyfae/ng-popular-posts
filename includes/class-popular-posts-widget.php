@@ -90,7 +90,7 @@ class NG_Popular_Posts_Widget extends WP_Widget {
 		foreach ( $popular_posts as $popular_post ) {
 			// If this post doesn't have a featured image - skip it.
 			if ( ! has_post_thumbnail( $popular_post->ID ) ) {
-				//continue;
+				continue;
 			}
 
 			// Display the featured image (medium size);
